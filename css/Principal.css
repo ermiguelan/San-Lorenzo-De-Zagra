@@ -52,5 +52,11 @@ header{
     bottom: -275px;
     position: absolute;
 }
+img {
+    max-width: 300px;
+    position: absolute;
+    left: -20px;
+    bottom: 200px;
+}
 
 @media(max-width: 600px) {}
