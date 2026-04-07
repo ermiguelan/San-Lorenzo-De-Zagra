@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+header{
+    background-image: url(./../imagenes/Captura\ de\ pantalla\ 2026-04-07\ 101600.png);
+    height: 1200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
