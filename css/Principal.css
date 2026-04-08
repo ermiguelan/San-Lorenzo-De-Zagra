@@ -68,8 +68,8 @@ header{
 img {
     max-width: 300px;
     position: absolute;
-    left: -20px;
-    bottom: 200px;
+    right: -60px;
+    bottom: 210px;
 }
 
 @media(max-width: 600px) {}
