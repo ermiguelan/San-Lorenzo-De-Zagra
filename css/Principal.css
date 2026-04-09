@@ -20,6 +20,18 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
+.botonnav{
+    background-color: cadetblue;       
+    border-radius: 4px;
+    width: 70px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 12px;
+}
+.botonnav:hover{
+    background-color: darkgoldenrod;
+}
 header{
     padding-top: 100px;
     background-image: url(./../imagenes/fondoheadernegro.jpg);
@@ -45,7 +57,7 @@ header{
     width: 200px;
 }
 #botoncomprar{
-    background-color: white;
+    background-color: #556B2F;
     height: 30px;
     width: 155px;
     border-radius: 10px;
@@ -86,7 +98,7 @@ header{
 #nuestroaceite, #quienessomos{
     width: 85%;
     height: fit-content;
-    background-color: goldenrod;
+    background-color: rgba(255, 255, 255, 0.05);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
