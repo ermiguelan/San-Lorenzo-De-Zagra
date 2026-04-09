@@ -5,6 +5,10 @@
     color: white;
     font-family: sans-serif;
 }
+body{
+    background-color: rgba(46, 47, 48, 0.842);
+    height: 1000px;
+}
 nav{
     top: 0px;
     position: fixed;
@@ -16,10 +20,23 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
+.botonnav{
+    background-color: cadetblue;       
+    border-radius: 4px;
+    width: 70px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 12px;
+    margin-right: 5px;
+}
+.botonnav:hover{
+    background-color: darkgoldenrod;
+}
 header{
     padding-top: 100px;
     background-image: url(./../imagenes/fondoheadernegro.jpg);
-    min-height: 100vh;
+    min-height: 110vh;
     color: white;
     display: flex;
     flex-direction: column;     
@@ -33,6 +50,7 @@ header{
     margin-bottom: 100px;     
     position: relative;
     gap: 20px;
+    z-index: 0;
 }
 #imagentitulo{
     background-color: white;
@@ -40,10 +58,11 @@ header{
     width: 200px;
 }
 #botoncomprar{
-    background-color: white;
+    background-color: #556B2F;
     height: 30px;
     width: 155px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 #whastapp{
     background-color: white;
@@ -65,12 +84,76 @@ header{
     bottom: -275px;
     position: absolute;
 }
-img {
+ header img {
     max-width: 300px;
     position: absolute;
     right: -60px;
     bottom: 210px;
 }
 
+#principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#nuestroaceite, #quienessomos{
+    width: 85%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 7%;
+}
+#nuestroaceiteText, #quienessomosText{
+    width: 50%;
+    padding: 15px;
+}
+#nuestroaceiteImg, #quienessomosImg{
+   width: 50%;
+}
+#nuestroaceiteImg img{
+   width: 85%;
+   height: auto;
+}
+#quienessomosImg img{
+     width: 85%;
+   height: auto;
+}
+#galeriaImg{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.imagenGaleria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 300px;
+    width: auto;
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0.164);
+}
 
-@media(max-width: 600px) {}
+@media(max-width: 600px) {
+    header{
+        height: 120vh;
+    }
+     #nuestroaceite, #quienessomos{
+        flex-direction: column; 
+    }
+    #nuestroaceiteText, #nuestroaceiteImg{
+        width: 100%;
+    }
+     #quienessomosText, #quienessomosImg{
+        width: 100%;
+    }
+    #galeriaImg{
+        flex-direction: column;
+    }
+}
