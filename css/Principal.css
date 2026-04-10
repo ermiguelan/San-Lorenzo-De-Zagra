@@ -17,8 +17,16 @@ nav{
     background-color: black;
     z-index: 100;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    gap: 30px;
+}
+#botonera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 30px;
 }
 .botonnav{
     background-color: cadetblue;       
@@ -27,8 +35,10 @@ nav{
     height: 45px;
     text-align: center;
     text-decoration: none;
-    padding: 10px 12px;
-    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
 }
 .botonnav:hover{
     background-color: darkgoldenrod;
@@ -212,6 +222,10 @@ footer{
     margin-top: 50px;
 }
 @media(max-width: 600px) {
+    nav{
+    justify-content:right ;
+    
+    }
     header{
         height: 120vh;
     }
