@@ -15,7 +15,6 @@ nav{
     width: 100%;
     height: 100px;
     background-color: black;
-    z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,4 +41,36 @@ nav{
 }
 .botonnav:hover{
     background-color: darkgoldenrod;
+}
+#contenedor_horario{
+    background-color: rgba(0, 0, 0, 0.171);
+    width: 85%;
+    margin-left: 7%;
+}
+#contenedor_contacto{
+    background-color: rgba(0, 0, 0, 0.171);
+    width: 85%;
+    margin-left: 7%;
+    margin-top: 50px;
+}
+#contenedor_ubicación{
+    background-color: rgba(0, 0, 0, 0.171);
+    width: 85%;
+    margin-left: 7%;
+    margin-top: 50px;
+}
+#mapa{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+footer{
+    height: 300px;
+    background-image: url(../imagenes/fondoheadernegro.jpg);
+    margin-top: 50px;
+}
+@media(max-width: 600px) {
+    .txt_contacto{
+        width: 100%;
+    }
 }
