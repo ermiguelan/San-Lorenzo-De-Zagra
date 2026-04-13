@@ -133,6 +133,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     margin-left: 7%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 #nuestroaceiteText, #quienessomosText{
     width: 50%;
@@ -158,6 +159,7 @@ header{
     flex-wrap: wrap;
     margin-top: 50px;
     background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 .imagenGaleria{
     display: flex;
@@ -178,6 +180,7 @@ header{
     width: 85%;
     margin-left: 7%;
     margin-top: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 .cooperativacontenido{
      display: flex;
@@ -212,6 +215,7 @@ header{
     width: 85%;
     margin-left: 7%;
     margin-top: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 #ayudastexto{
     width: 100%;
@@ -271,4 +275,8 @@ footer{
     #ayudasImg img {
         max-width: 80%; 
     }
+}
+@font-face {
+    font-family: 'monserrat';
+    src: url(./../fuentes/Montserrat-VariableFont_wght.ttf);
 }

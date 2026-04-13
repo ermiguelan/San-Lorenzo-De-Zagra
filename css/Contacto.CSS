@@ -46,23 +46,27 @@ nav{
     background-color: rgba(0, 0, 0, 0.171);
     width: 85%;
     margin-left: 7%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 #contenedor_contacto{
     background-color: rgba(0, 0, 0, 0.171);
     width: 85%;
     margin-left: 7%;
     margin-top: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 #contenedor_ubicación{
     background-color: rgba(0, 0, 0, 0.171);
     width: 85%;
     margin-left: 7%;
     margin-top: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 #mapa{
     text-align: center;
     margin-top: 50px;
     width: 100%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 footer{
     height: 300px;
@@ -73,4 +77,8 @@ footer{
     .txt_contacto{
         width: 100%;
     }
+}
+@font-face {
+    font-family: 'monserrat';
+    src: url(./../fuentes/Montserrat-VariableFont_wght.ttf);
 }
