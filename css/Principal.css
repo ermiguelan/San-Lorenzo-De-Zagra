@@ -21,6 +21,18 @@ nav{
     align-items: center;
     gap: 30px;
 }
+.contenedorLogo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.logoImg {
+    height: 90px; 
+    width: auto;
+    object-fit: contain;
+}
 #botonera{
     display: flex;
     justify-content: center;
@@ -31,7 +43,7 @@ nav{
 .botonnav{
     background-color: cadetblue;       
     border-radius: 4px;
-    width: 70px;
+    width: 80px;
     height: 45px;
     text-align: center;
     text-decoration: none;
@@ -69,10 +81,15 @@ header{
 }
 #botoncomprar{
     background-color: #556B2F;
-    height: 30px;
+    height: 60px;
     width: 155px;
     border-radius: 10px;
     margin-bottom: 10px;
+    padding: 20px;
+    text-decoration: none;
+}
+#botoncomprar:hover{
+    background-color: darkgoldenrod;
 }
 #whastapp{
     background-color: white;
