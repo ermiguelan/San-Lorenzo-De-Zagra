@@ -73,6 +73,12 @@ footer{
     background-image: url(../imagenes/fondoheadernegro.jpg);
     margin-top: 50px;
 }
+#txt_contacto{
+    text-align: center; 
+    font-size: 8vw; 
+    margin-top: 200px; 
+}
+
 @media(max-width: 600px) {
     .txt_contacto{
         width: 100%;
