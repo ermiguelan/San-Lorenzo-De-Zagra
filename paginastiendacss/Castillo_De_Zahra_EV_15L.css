@@ -9,3 +9,127 @@ body{
     background-color: rgba(46, 47, 48, 0.842);
     height: 1000px;
 }
+nav{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.contenedorLogo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.logoImg {
+    height: 90px; 
+    width: auto;
+    object-fit: contain;
+}
+#botonera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 30px;
+}
+.botonnav{
+    background-color: cadetblue;       
+    border-radius: 4px;
+    width: 80px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+.botonnav:hover{
+    background-color: darkgoldenrod;
+}
+#principal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+#imagen{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#imagen img{
+    width: 90%;
+    height: 500px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+#contenido{
+    width: 50%;
+    text-align: center;
+}
+#botoncompra{
+    border-radius: 14px;
+    width: 100px;
+    height: 65px;
+    margin-top: 20px;
+    background-color: #556B2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#galeriaImg{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.imagenGaleria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 300px;
+    width: auto;
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0.164);
+}
+footer{
+    height: 300px;
+    background-image: url(./../imagenes/fondoheadernegro.jpg);
+    margin-top: 50px;
+}
+@media(max-width: 600px) {
+    #principal{
+        flex-direction: column;
+    }
+    #contenido, #imagen{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@font-face {
+    font-family: 'monserrat';
+    src: url(./../fuentes/Montserrat-VariableFont_wght.ttf);
+}
+h1{
+    font-family:'monserrat';
+}

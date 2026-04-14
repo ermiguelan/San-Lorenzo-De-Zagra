@@ -136,9 +136,7 @@ footer{
         width: 100%;
         height: auto;
     }
-        #galeriaImg{
-        flex-direction: column;
-    }
+
 }
 @font-face {
     font-family: 'monserrat';
