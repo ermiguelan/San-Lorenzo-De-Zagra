@@ -9,3 +9,75 @@ body{
     background-color: rgba(46, 47, 48, 0.842);
     height: 1000px;
 }
+nav{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+#botonera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 30px;
+}
+.botonnav{
+    background-color: cadetblue;       
+    border-radius: 4px;
+    width: 70px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+.botonnav:hover{
+    background-color: darkgoldenrod;
+}
+#contenedor_total{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 300px;
+}
+#contenedor_contenidoI{
+    width: 50%;
+    display: flex;
+}
+#contenedor_contenidoD{
+    width: 50%;
+    display: flex;
+}
+#galeriaImg{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.imagenGaleria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 300px;
+    width: auto;
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0.164);
+}
+footer{
+    height: 300px;
+    background-image: url(./../imagenes/fondoheadernegro.jpg);
+    margin-top: 50px;
+}
