@@ -51,10 +51,19 @@ nav{
 #contenedor_contenidoI{
     width: 50%;
     display: flex;
+    height: 500px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    justify-content: center;
+    margin-left: 50px;
 }
 #contenedor_contenidoD{
     width: 50%;
     display: flex;
+    margin-top: 10px; 
+    line-height: 30px; 
+    width: 80%; 
+    margin-left: 10%;
+    justify-content: row;
 }
 #galeriaImg{
     width: 100%;
@@ -76,8 +85,30 @@ nav{
     border: solid 1px white;
     background-color: rgba(255, 255, 255, 0.164);
 }
+#botoncompra{
+    border-radius: 14px;
+    width: 100px;
+    height: 65px;
+    margin-top: 20px;
+    background-color: #556B2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 footer{
     height: 300px;
     background-image: url(./../imagenes/fondoheadernegro.jpg);
     margin-top: 50px;
+}
+@media(max-width: 600px){
+    #contenedor_contenidoD, #contenedor_contenidoI{
+        width: 100%;
+    }
+}
+@font-face {
+    font-family: 'monserrat';
+    src: url(./../fuentes/Montserrat-VariableFont_wght.ttf);
+}
+h1{
+    font-family:'monserrat';
 }
