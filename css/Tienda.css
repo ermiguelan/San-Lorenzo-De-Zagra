@@ -86,7 +86,7 @@ p{
 }
 a{
     background-color: rgb(66, 92, 18);       
-    border-radius: 12px;
+    border-radius: 30px;
     width: 80px;
     height: 45px;
     text-align: center;
@@ -95,6 +95,8 @@ a{
     justify-content: center;
     align-items: center;
     margin: 10px auto;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.2);
 }
 a:hover{
     background-color: darkgoldenrod;
