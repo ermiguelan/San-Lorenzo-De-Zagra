@@ -9,6 +9,19 @@ body{
     background-color: rgba(46, 47, 48, 0.842);
     height: 1000px;
 }
+
+.contenedorLogo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.logoImg {
+    height: 90px; 
+    width: auto;
+    object-fit: contain;
+}
 nav{
     position: fixed;
     top: 0;
@@ -42,19 +55,38 @@ nav{
     background-color: #556B2F;
     border-color: #556B2F;
 }
-#contenedor_total{
+#principal{
     width: 100%;
+    display: flex;
     justify-content: center;
-    display: flex;
-    margin-top: 300px;
+    flex-wrap: wrap;
+    margin-top: 200px;
 }
-#contenedor_contenidoI{
+#imagen{
     width: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-#contenedor_contenidoD{
+#imagen img{
+    width: 90%;
+    height: 500px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+#contenido{
     width: 50%;
+    text-align: center;
+}
+#botoncompra{
+    border-radius: 14px;
+    width: 100px;
+    height: 65px;
+    margin-top: 20px;
+    background-color: #556B2F;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #galeriaImg{
     width: 100%;
@@ -80,4 +112,39 @@ footer{
     height: 300px;
     background-image: url(./../imagenes/fondoheadernegro.jpg);
     margin-top: 50px;
+}
+@media(max-width: 600px) {
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        z-index: 0;
+    }
+    .contenedorLogo{
+        width: 100%;
+        justify-content: center;
+    }
+    #botonera{
+        width: 100%;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    #principal{
+        flex-direction: column;
+    }
+    #contenido, #imagen{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@font-face {
+    font-family: 'monserrat';
+    src: url(./../fuentes/Montserrat-VariableFont_wght.ttf);
+}
+h1{
+    font-family:'monserrat';
 }

@@ -90,6 +90,7 @@ header{
 }
 #botoncomprar:hover{
     background-color: darkgoldenrod;
+    transform: scale(1.2);
 }
 #whastapp{
     background-color: white;
