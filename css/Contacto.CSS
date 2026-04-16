@@ -62,6 +62,17 @@ nav{
     margin-top: 50px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
+.contenedorLogo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.logoImg {
+    height: 90px; 
+    width: auto;
+    object-fit: contain;
+}
 #mapa{
     text-align: center;
     margin-top: 50px;
