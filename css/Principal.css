@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: #222222;
     font-family: sans-serif;
 }
 body{
-    background-color: rgba(46, 47, 48, 0.842);
+    background-color: #F1F1F1;
     height: 1000px;
 }
 nav{
@@ -14,7 +14,7 @@ nav{
     top: 0;
     width: 100%;
     height: 90px;
-    background: rgba(0,0,0,0.7);
+    background: rgb(255, 255, 255);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,6 @@ nav{
     align-items: center;
     padding-left: 25px;
 }
-
 .logoImg {
     height: 90px; 
     width: auto;
@@ -56,7 +55,7 @@ nav{
 }
 header{
     padding-top: 100px;
-    background-image: url(./../imagenes/fondoheadernegro.jpg);
+    background-image: url(../imagenes/fondoblanco.jpg);
     min-height: 110vh;
     color: white;
     display: flex;
@@ -72,6 +71,9 @@ header{
     position: relative;
     gap: 20px;
     z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 #imagentitulo{
     background-color: white;
@@ -118,7 +120,6 @@ header{
     right: -60px;
     bottom: 210px;
 }
-
 #principal{
     display: flex;
     justify-content: center;
@@ -168,7 +169,7 @@ header{
     flex-direction: row;
     height: 300px;
     width: auto;
-    border: solid 1px white;
+    border: solid 1px gold;
     background-color: rgba(255, 255, 255, 0.164);
 }
 #cooperativa{
@@ -240,8 +241,11 @@ header{
 }
 footer{
     height: 300px;
-    background-image: url(./../imagenes/fondoheadernegro.jpg);
+    background-image: url(../imagenes/fondoblanco.jpg);
     margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 @media(max-width: 600px) {
     header{
