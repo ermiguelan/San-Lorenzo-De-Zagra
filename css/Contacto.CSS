@@ -9,6 +9,9 @@ body{
     background-color: #F1F1F1;
     height: 1000px;
 }
+h1{
+    font-family: "Montserrat";
+}
 nav{
    position: fixed;
     top: 0;
@@ -31,12 +34,13 @@ nav{
     gap: 30px;
 }
 .botonnav{
-     background: transparent;
+    background: transparent;
+    background-color: #f9f9f9;
     border-radius: 30px;
     padding: 10px 20px;
     text-decoration: none;
     transition: all 0.3s ease;
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .botonnav:hover{
     background-color: #556B2F;
@@ -114,6 +118,6 @@ footer{
     }
 }
 @font-face {
-    font-family: 'monserrat';
+    font-family: 'Montserrat';
     src: url(./../fuentes/Montserrat-VariableFont_wght.ttf);
 }
